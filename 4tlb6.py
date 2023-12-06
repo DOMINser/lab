@@ -20,6 +20,7 @@ for i in range(0,len(a)):
         mn=a[i]
         nmn=i
 a.insert(xmn,0)
-a.insert(nmn,0)
+a.insert(nmn+1,0)
 print(mx,xmn,mn,nmn)
 print(a)
+
